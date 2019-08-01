@@ -1,0 +1,28 @@
+{
+  "name": "netlify-identity-example",
+  "version": "1.0.0",
+  "description": "an example of using netlify identity with hasura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnovick/hasura-netlify-identity-auth.git"
+  },
+  "keywords": [
+    "hasura",
+    "react",
+    "netlify",
+    "auth"
+  ],
+  "author": "Vladimir Novick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vnovick/hasura-netlify-identity-auth/issues"
+  },
+  "homepage": "https://github.com/vnovick/hasura-netlify-identity-auth#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
