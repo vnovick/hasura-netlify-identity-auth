@@ -4,7 +4,7 @@ import { useIdentityContext, IdentityContextProvider } from "react-netlify-ident
 import "react-netlify-identity-widget/styles.css"
 
 function App() {
-  const url = "https://priceless-mcnulty-761660.netlify.com"
+  const url = "https://dazzling-lewin-705bfc.netlify.com"
   return (
     <IdentityContextProvider url={url}>
       <AuthStatusView />
