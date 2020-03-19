@@ -26,7 +26,7 @@ function AuthStatusView() {
       <header className="App-header">
         {identity && identity.isLoggedIn ? (
           <>
-            <h1> hello {name}!</h1>
+            <h1> helloi {name}!</h1>
             {avatar_url && <img alt="user name" src={avatar_url} style={{ height: 100, borderRadius: "50%" }} />}
             <button className="btn" style={{ maxWidth: 400, background: "orangered" }} onClick={() => setDialog(true)}>
               LOG OUT
